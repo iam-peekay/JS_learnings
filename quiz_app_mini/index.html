@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Amazing Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="grid">
+    <div id="quiz" class="centered grid__col--8">
+        <h1>Awesome Quiz</h1>
+
+        <h2 id="question" class="headline-secondary--grouped"></h2>
+        <h3 id="score"></h3>
+
+        <p id="choice0"></p>
+        <button id="guess0" class="btn--default">Select Answer</button>
+
+        <p id="choice1"></p>
+        <button id="guess1" class="btn--default">Select Answer</button>
+
+        <footer>
+            <p id="progress">Question x of y</p>
+        </footer>
+    </div>
+</div>
+
+<script src="quiz.js"></script>
+<script src="questions.js"></script>
+<script src="quiz_UI.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
