@@ -1,7 +1,7 @@
 /* Basic Style */
 body {
   background: #0B032D;
-  color: #FFB997;
+  color: #F67E7D;
   font-family: Open Sans, sans-serif;
 }
 .container {
@@ -39,7 +39,7 @@ button:hover {
 /* Heading */
 h3,
 label[for='new-task'] {
-  color: #F67E7D;
+  color: #843B62;
   font-weight: 700;
   font-size: 15px;
   border-bottom: 2px solid #333;
