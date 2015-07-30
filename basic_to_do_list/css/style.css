@@ -1,8 +1,8 @@
 /* Basic Style */
 body {
-  background: #fff;
-  color: #333;
-  font-family: Lato, sans-serif;
+  background: #0B032D;
+  color: #FFB997;
+  font-family: Open Sans, sans-serif;
 }
 .container {
   display: block;
@@ -26,20 +26,20 @@ input, button {
 button {
   background: none;
   border: 0px;
-  color: #888;
+  color: #74546A;
   font-size: 15px;
   width: 60px;
   margin: 10px 0 0;
-  font-family: Lato, sans-serif;
+  font-family: Open Sans, sans-serif;
   cursor: pointer;
 }
 button:hover {
-  color: #333;
+  color: #FFB997;
 }
 /* Heading */
 h3,
 label[for='new-task'] {
-  color: #333;
+  color: #F67E7D;
   font-weight: 700;
   font-size: 15px;
   border-bottom: 2px solid #333;
@@ -60,7 +60,7 @@ input[type="text"] {
   color: #888;
 }
 input[type="text"]:focus {
-  color: #333;
+  color: #0B032D;
 }
 
 /* New Task */
