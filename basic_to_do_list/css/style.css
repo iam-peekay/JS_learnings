@@ -1,7 +1,7 @@
 /* Basic Style */
 body {
-  background: #0B032D;
-  color: #F67E7D;
+  background: #E4FDE1;
+  color: #456990;
   font-family: Open Sans, sans-serif;
 }
 .container {
@@ -26,7 +26,7 @@ input, button {
 button {
   background: none;
   border: 0px;
-  color: #74546A;
+  color: #9CAFB7;
   font-size: 15px;
   width: 60px;
   margin: 10px 0 0;
@@ -34,12 +34,12 @@ button {
   cursor: pointer;
 }
 button:hover {
-  color: #FFB997;
+  color: #02C39A;
 }
 /* Heading */
 h3,
 label[for='new-task'] {
-  color: #843B62;
+  color: #F45B69;
   font-weight: 700;
   font-size: 15px;
   border-bottom: 2px solid #333;
@@ -73,7 +73,7 @@ input#new-task {
   width: 318px;
 }
 p > button:hover {
-  color: #0FC57C;
+  color: #02C39A;
 }
 
 /* Task list */
