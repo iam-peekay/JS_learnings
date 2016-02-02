@@ -31,7 +31,7 @@ function makeFunc(firstName) {
   };
 }
 
-function makeFunc() {a
+function makeFunc() {
   var name = "Preethi";
   function displayName() {
     alert(name);
